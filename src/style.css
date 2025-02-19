@@ -83,7 +83,7 @@ margin-top: 20px;
 
 @media (max-width: 533px) {
   p {
-    height: auto;
+    height: 700px;
   }
   .sid {
     padding: 15px;
