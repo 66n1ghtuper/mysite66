@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=M+PLUS+Rounded+1c&family=Orbitron:wght@400..900&family=Outfit:wght@100..900&family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&family=Rowdies:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Outfit:wght@100..900&family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&family=Rowdies:wght@300;400;700&display=swap');
+.Prodj {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "M PLUS Rounded 1c", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #e2dddd; 
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Orbitron", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  margin-bottom: 65px;
+  max-width: 1200px;
+}

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=M+PLUS+Rounded+1c&family=Orbitron:wght@400..900&family=Outfit:wght@100..900&family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&family=Rowdies:wght@300;400;700&display=swap');
+.cont {
+  display: flex;
+  flex-direction: row;
+  font-style: normal;
+  height: 100vh;
+}
+
+.sid {
+  width: 70%;
+  padding: 20px;
+  font-family: "M PLUS Rounded 1c", serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between; 
+margin-top: 200px;
+}
+
+h1 {
+  font-size: 22px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  flex-grow: 1; 
+margin-bottom: 70px;
+}
+
+.button{
+  background-color: rgba(218, 71, 71, 0);
+  font-size: 16px; 
+  border: none; 
+  border-radius: 50px; 
+  transition: background-color 0.3s; 
+}
+
+
+.canvas {
+  width: 30%;
+  height: 100vh;
+}
+.link {
+  color: #ebc08c; 
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+  background-color: rgba(192, 60, 23, 0.1); 
+  padding: 2px 4px; 
+  border-radius: 20px 40px 20px 40px ; 
+}
+
+.link:hover {
+  color: #c01717; 
+  background-color: rgba(192, 23, 23, 0.2);
+}
+@media (max-width: 1600px) {
+  .sid {
+margin-top: 20px;
+  }
+}
+@media (max-width: 847px) {
+  .cont {
+    flex-direction: column; 
+  }
+  
+  .canvas, .sid {
+    width: 90%;
+    height: 300vh;
+  }
+  
+}
+
+@media (max-width: 700px) {
+  p {
+    height: auto; 
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 533px) {
+  p {
+    height: auto;
+  }
+  .sid {
+    padding: 15px;
+      }
+}

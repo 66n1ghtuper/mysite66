@@ -1,0 +1,62 @@
+
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.light-theme {
+      /*background-color: rgb(6, 6, 6);*/
+      background-image: url('https://img1.akspic.ru/previews/9/1/5/5/7/175519/175519-kompyuter_imac-korichnevyj_cvet-rozovyj-purpurnyj_cvet-polutona_i_ottenki-x750.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      color: rgb(255, 254, 254);
+      height: 100vh;
+}
+
+body.dark-theme {
+    background: linear-gradient(to bottom, #001122, #003366,#0d74db,#9fc0e1);
+    color: rgb(255, 254, 254) ;
+    height: 100vh;
+    background-size: cover;
+      background-attachment: fixed;
+}
+
+.menuContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: #f0f0f0;
+    border-top: 2px solid #da9f28;
+    position: fixed;
+    bottom: 11px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    padding: 0 20px;
+}
+
+.iconContainer {
+    padding: 9px;
+    border-radius: 5px 5px 30px 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 0 20px;
+}
+
+.iconContainer.selected {
+    background-color: rgb(194, 89, 60);
+    color: white;
+    transform: translateY(-5px);
+}
+
+.iconContainer:hover {
+    background-color: rgba(156, 114, 87, 0.7);
+}
+@media (max-width: 330px) {
+    .iconContainer {
+        padding: 5px;
+    }
+
+}
