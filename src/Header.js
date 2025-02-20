@@ -5,7 +5,7 @@ import './Header.css';
 
 const Header = () => {
     const handleWClick = () => {
-        window.location.href = "https://t.me/nightuper_bot"; 
+        window.location.href = "https://t.me/adm66n1"; 
     };
 
     const handleXClick = () => {
