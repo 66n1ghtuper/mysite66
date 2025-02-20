@@ -82,6 +82,9 @@ margin-top: 20px;
 }
 
 @media (max-width: 533px) {
+  h1{
+    font-size: 19px;
+  }
   p {
     height: 270px;
   }
