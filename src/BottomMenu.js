@@ -9,7 +9,7 @@ import './BottomMenu.css';
 
 const BottomMenu = () => {
     const { isDarkTheme, toggleTheme } = useContext(ThemeContext);
-    const [selected, setSelected] = useState('Prodj');
+    const [selected, setSelected] = useState('sayk');
     const [isLight, setIsLight] = useState(false); 
     const navigate = useNavigate(); 
 
