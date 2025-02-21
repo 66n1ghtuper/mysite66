@@ -83,23 +83,13 @@ margin-top: 20px;
 
 @media (max-width: 533px) {
   h1{
-    font-size: 19px;
+    font-size: 22px;
   }
   p {
-    height: 270px;
+    height: 450px;
+    font-size:20px;
   }
   .sid {
     padding: 15px;
-      }
-}
-@media (max-width: 394px) {
-  p {
-    height: auto;
-  }
-  .sid {
-    padding: 15px;
-      }
-      .canvas {
-display: none;
       }
 }
