@@ -86,7 +86,7 @@ margin-top: 20px;
     font-size: 21px;
   }
   p {
-    height: 330px;
+    height: 320px;
     font-size:18px;
   }
   .sid {
@@ -97,5 +97,7 @@ margin-top: 20px;
   .canvas {
     display: none;
   }
-
+  p {
+    height: 330px;
+  }
 }
