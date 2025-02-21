@@ -86,10 +86,16 @@ margin-top: 20px;
     font-size: 21px;
   }
   p {
-    height: 440px;
+    height: 370px;
     font-size:18px;
   }
   .sid {
     padding: 15px;
       }
+}
+@media (max-width: 376px) {
+  .canvas {
+    display: none;
+  }
+
 }
