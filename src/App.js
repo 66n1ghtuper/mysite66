@@ -29,7 +29,7 @@ const App = () => {
 
     return (
         <ThemeProvider>
-            <Router>
+            <Router future={{ v7_relativeSplatPath: true }}>
                 <div className="appContainer">
                     {loading ? (
                         <Loader />
@@ -41,6 +41,8 @@ const App = () => {
                                     <Route path="/sayk" element={<Sayk />} />
                                     <Route path="/prodj" element={<Prodj />} />
                                     <Route path="/sled" element={<Sled />} />
+                                    {/* Добавьте Splat маршрут, если необходимо */}
+                                    <Route path="/*" element={<Sayk />} /> {/* Замените YourFallbackComponent на ваш компонент */}
                                 </Routes>
                             </main>
                             <BottomMenu />
